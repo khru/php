@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Lato|Source+Sans+Pro|Montserrat|Droid+Sans);
+*{
+	margin:auto;
+	padding: 0;
+}
+
+/*Estilo del contenedor general */
+.box{
+	margin:auto;
+	padding: 0;
+	background-color: #FFEE50;
+}
+/* Contenedor de formulario */
+.contenedor-formulario{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
+	margin-bottom: 2descargar %;
+	padding:10px; 
+	background-color: #05AD78 ;
+	color:#5805AD;
+	border:white 10px solid;
+	font-family: "roboto", arial;
+	border-radius: 20px;
+
+}
+.contenedor-formulario input{
+	margin:5px;
+	font-size: 1.1em;
+	border-radius: 5px;
+	padding: 1px;
+}
+
+.contenedor-formulario input:hover{
+	background-color: #F6CECE;
+}
+
+
+footer{
+	text-align: center;
+	padding: 20px;
+	margin-top: 2%;
+	font-family: "Source Sans", arial;
+	background-color: black;
+	color: white;
+}
+header{
+	padding: 20px;
+	margin-bottom: 2%;
+	text-align: center;
+	font-family: "Source Sans", arial;
+	background-color: black;
+	color: white;
+}
+
+select{
+    font-size: 1.2em;
+}
+
+
+label{
+    display: inline-block;
+    width: 140px;
+}
+
+input:hover{
+	border:black 2px solid;
+}
+
+/* Estilo de los errores */
+.error{
+	background-color: #fcc;
+	color:red;
+	display: inline;
+}
+.listaerrores{
+    background-color: #fcc;
+    color: red;
+    padding: 10px 30px;
+}
+
+
+input:invalid {
+ 
+	border: 2px solid red;
+ 
+}
+input:valid {
+ 
+border: 2px solid #088A08;
+ 
+}
+@media screen and (max-width: 800px){
+	.contenedor-formulario{
+	margin-left: 10%;
+	margin-right: 10%;
+
+	}
+}

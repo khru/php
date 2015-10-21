@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+</head>
+<body>
+	<form action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
+	<p>
+		<label for="nombre">Nombre:</label>
+		<input type="text" name="nombre" id="nombre" value="" placeholder="Introduce tú nombre" autofocus required>
+	</p>
+	<p>
+		<label for="email">E-mail</label>
+		<input type="email" name="email" id="email" value="" placeholder="example@dominio.com" required autofocus>
+	</p>
+	<p>
+		<label for="clave1">Contraseña:</label>
+		<input type="password" name="clave1" id="clave1" value="" placeholder="" required autofocus>
+	</p>
+	<p>
+		<label for="clave2">Repetir contraseña:</label>
+		<input type="password" name="clave2" id="clave2" value="" placeholder="" required autofocus>
+	</p>
+	<p>
+		<input type="submit" name="enviar" value="Enviar">
+		<input type="reset" name="borrar" value="Borrar">
+	</p>
+</form>
+</body>
+</html>
